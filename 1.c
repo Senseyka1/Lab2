@@ -14,7 +14,7 @@ int main (int argc, char * argv [ ]){
 	dob =  2  *  (a + b);
 	dif = a  -  (3 * b);
   
-    printf("\n***Результат***\n");
+        printf("\n***Результат***\n");
 	printf("1 = %d\n2 = %d\n3 = %d\n", kor, dob, dif);
 
 	return 0;
