@@ -5,10 +5,10 @@
 int main () {
 	int a, b, kor, dob, dif;
 
-       printf("Введіть число a: ");
-       scanf("%d",&a );
-       printf("Введіть число b: ");
-       scanf("%d",&b );
+        printf("Введіть число a: ");
+        scanf("%d",&a );
+        printf("Введіть число b: ");
+        scanf("%d",&b );
 
 	kor = sqrt (a);
 	dob = 2  *  (a + b);
