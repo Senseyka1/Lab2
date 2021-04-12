@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-int main (int argc, char * argv [ ]){
+int main () {
 	int a, b, kor, dob, dif;
 
        printf("Введіть число a: ");
@@ -11,7 +11,7 @@ int main (int argc, char * argv [ ]){
        scanf("%d",&b );
 
 	kor = sqrt (a);
-	dob =  2  *  (a + b);
+	dob = 2  *  (a + b);
 	dif = a  -  (3 * b);
   
         printf("\n***Результат***\n");
