@@ -2,17 +2,18 @@
 #include <math.h>
 
 int main() {
-  float y, x, z, result;
+  float result;
+  int x, y, z;
 
   printf("Введіть три цілих числа:\n\n");
   printf("Введіть число x: ");
-  scanf("%f", &x);
+  scanf("%d", &x);
 
   printf("Введіть число y: ");
-  scanf("%f", &y);
+  scanf("%d", &y);
 
   printf("Введіть число z: ");
-  scanf("%f", &z);
+  scanf("%d", &z);
 
   if ((pow(x, 2)*y - z < 0) || (x+y+z < 0)){
     printf("\nВи ввели некоректні данні\n");
